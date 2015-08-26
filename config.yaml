@@ -7,7 +7,7 @@ default:
     jade:
       locals:
         title: 'Gulp Template'
-        description: 'Template app for new projects with Gulp, Browsersync, Babel, Uglify, Stylus, Autoprefixer, Sourcemaps'
+        description: 'Template app for new projects with Gulp, Browsersync, Babel, Uglify, Stylus, Autoprefixer, Sourcemaps, etc...'
     dest: './build/'
   javascripts:
     src: './assets/javascripts/**/*.js'

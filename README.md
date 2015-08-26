@@ -1,4 +1,8 @@
-# Gulp Template
+# GulpTemplate
+
+Template app for new projects with Gulp, Browser-sync, Babel, Uglify, Stylus, Autoprefixer, Sourcemaps, JsHint, JSCS, etc...
+
+#### Main tasks
 
 `gulp` or `npm start` to start developer server.
 
