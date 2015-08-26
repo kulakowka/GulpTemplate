@@ -1,0 +1,29 @@
+test:
+production:
+
+default:
+  templates:
+    src: './assets/templates/**/*.jade'
+    jade:
+      locals:
+        title: 'Gulp Template'
+        description: 'Template app for new projects with Gulp, Browsersync, Babel, Uglify, Stylus, Autoprefixer, Sourcemaps'
+    dest: './build/'
+  javascripts:
+    src: './assets/javascripts/**/*.js'
+    filename: 'app.js'
+    dest: './build/javascripts/'
+  stylesheets:
+    src: './assets/stylesheets/**/*.styl'
+    filename: 'app.css'
+    dest: './build/stylesheets/'
+  browserSync:
+    baseDir: './build/'
+  stylus:
+    compress: true
+    linenos: false
+  autoprefixer:
+    browsers:
+      - 'last 2 versions'
+    cascade: false
+
