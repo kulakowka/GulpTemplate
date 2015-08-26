@@ -22,3 +22,5 @@ Template app for new projects with Gulp, Browser-sync, Babel, Uglify, Stylus, Au
 
 `gulp jshint` test javascript errors.
 
+`gulp clean` for delete all files from `./build`
+

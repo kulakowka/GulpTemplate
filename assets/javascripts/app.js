@@ -1,5 +1,1 @@
-'use strict';
-
-const Hello = 'Hello world';
-
-console.log(Hello);
+console.log('app.js start');

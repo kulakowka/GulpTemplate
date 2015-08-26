@@ -2,6 +2,8 @@ test:
 production:
 
 default:
+  clean:
+    buildPath: './build/**/*'
   templates:
     src: './assets/templates/**/*.jade'
     jade:
